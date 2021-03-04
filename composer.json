@@ -1,6 +1,6 @@
 {
-    "name": "agomez/laravel-odbc-driver",
-    "description": "ODBC driver for Laravel 5.x",
+    "name": "vmeditab/laravel-odbc-driver",
+    "description": "ODBC driver for Laravel 8.x & PHP 8.x",
     "type": "library",
     "keywords": ["odbc", "driver", "database"],
     "license": "MIT",
@@ -10,8 +10,16 @@
             "email": "adriangomez.cl@gmail.com"
         }
     ],
+
+    "repositories": [
+        {
+            "type": "path",
+            "url": "packages/vmeditab/laravel-odbc-driver"
+        }
+    ],
+
     "require": {
-        "php": "^5.3 || ^7.0"
+        "php": "^5.3 || ^7.0 || ^8.0"
     },
     "autoload": {
         "psr-0": {
